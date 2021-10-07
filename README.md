@@ -1,2 +1,2 @@
 # yarpigio
-Yet Another Raspberry Pi GPIO Library YARPIGIO
+Yet Another Raspberry Pi GPIO Library YARPIO
