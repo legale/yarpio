@@ -157,7 +157,7 @@ void gpio_high(void *gpio, uint8_t pin);
 void gpio_low(void *gpio, uint8_t pin);
 void gpio_switch(void *gpio, uint8_t pin);
 void setup_io(void **gpio);
-void stat(void *gpio);
+void status(void *gpio);
 void speed_test(void *gpio);
 void nsleep(uint32_t ns);
 void pud_off(void *gpio, uint8_t pin);	

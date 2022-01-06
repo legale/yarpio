@@ -129,7 +129,7 @@ void gpio_switch(void *gpio, uint8_t pin){
     GPIO_SET(gpio, pin, !GPIO_GET(gpio, pin));
 }
 
-void stat(void *gpio){
+void status(void *gpio){
 	void *i = gpio;
 	printf("GPIO function select registers GPFSEL:\n");
 	printf("GPFSEL0 0x%X:\n"INT32_PAT(%s)"\n", GPIO_BASE + GPFSEL0, INT32_2_BIN(*(uint32_t *)(i + GPFSEL0), 0));
