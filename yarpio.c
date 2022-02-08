@@ -138,6 +138,8 @@ void status(void *gpio){
 	printf("GPFSEL3 0x%X:\n"INT32_PAT(%s)"\n", GPIO_BASE + GPFSEL3, INT32_2_BIN(*(uint32_t *)(i + GPFSEL3), 0));
 	printf("GPFSEL4 0x%X:\n"INT32_PAT(%s)"\n", GPIO_BASE + GPFSEL4, INT32_2_BIN(*(uint32_t *)(i + GPFSEL4), 0));
 	printf("GPFSEL5 0x%X:\n"INT32_PAT(%s)"\n", GPIO_BASE + GPFSEL5, INT32_2_BIN(*(uint32_t *)(i + GPFSEL5), 0));
+	printf("GPPUDCLK0 0x%X:\n"INT32_PAT(%s)"\n", GPIO_BASE + GPPUDCLK0, INT32_2_BIN(*(uint32_t *)(i + GPPUDCLK0), 0));
+	printf("GPPUDCLK1 0x%X:\n"INT32_PAT(%s)"\n", GPIO_BASE + GPPUDCLK1, INT32_2_BIN(*(uint32_t *)(i + GPPUDCLK1), 0));
 
   
 	printf("GPIO Pull-up/down register GPPUD 0x%X:\n", GPIO_OFFSET + GPPUD); 
